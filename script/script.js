@@ -23,3 +23,4 @@ const eventDate = new Date("2023-05-15T09:00:00").getTime();
                 document.getElementById("countdown-timer").innerHTML = "Event has already started";
             }
         }, 1000);
+
