@@ -36,79 +36,74 @@
     </header>
 
     <section class="relative bg-gradient-to-r from-blue-500 to-purple-500">
-      <!-- <div class="absolute inset-0 opacity-75 bg-gray-900"></div> -->
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div class="text-center">
-              <h2 class="text-4xl font-bold text-white mb-8">Join Us at Our Next Event</h2>
-              <div class="flex flex-wrap items-center justify-center mb-12">
-                  <div class="flex items-center bg-white rounded-lg shadow-md p-6 mb-5">
-                      <div
-                          class="flex items-center justify-center w-16 h-16 bg-gray-800 rounded-full text-white font-bold text-2xl">
-                          <span id="days"></span>
-                      </div>
-                      <div class="ml-6 text-left">
-                          <p class="text-gray-700 text-lg font-bold">DAYS</p>
-                      </div>
-                  </div>
-                  <div class="flex items-center bg-white rounded-lg shadow-md p-6 ml-8 mb-5">
-                      <div
-                          class="flex items-center justify-center w-16 h-16 bg-gray-800 rounded-full text-white font-bold text-2xl">
-                          <span id="hours"></span>
-                      </div>
-                      <div class="ml-6 text-left">
-                          <p class="text-gray-700 text-lg font-bold">HOURS</p>
-                      </div>
-                  </div>
-                  <div class="flex items-center bg-white rounded-lg shadow-md p-6 ml-8 mb-5">
-                      <div
-                          class="flex items-center justify-center w-16 h-16 bg-gray-800 rounded-full text-white font-bold text-2xl">
-                          <span id="minutes"></span>
-                      </div>
-                      <div class="ml-6 text-left">
-                          <p class="text-gray-700 text-lg font-bold">MINUTES</p>
-                      </div>
-                  </div>
-                  <div class="flex items-center bg-white rounded-lg shadow-md p-6 ml-8 mb-5">
-                      <div
-                          class="flex items-center justify-center w-16 h-16 bg-gray-800 rounded-full text-white font-bold text-2xl">
-                          <span id="seconds"></span>
-                      </div>
-                      <div class="ml-6 text-left">
-                          <p class="text-gray-700 text-lg font-bold">SECONDS</p>
-                      </div>
-                  </div>
+        <div class="text-center">
+          <h2 class="text-4xl font-bold text-white mb-8">Join Us at Our Next Event</h2>
+          <div class="flex flex-col md:flex-row justify-center items-center md:mb-12 space-y-8 md:space-x-8 md:space-y-0">
+            <div class="flex items-center bg-white rounded-lg shadow-md p-6 w-full md:w-auto">
+              <div class="flex items-center justify-center w-16 h-16 bg-gray-800 rounded-full text-white font-bold text-2xl">
+                <span id="days"></span>
               </div>
-              <div class="mt-8">
-                  <a href="./Auth/index.html"
-                      class="inline-block bg-white py-4 px-6 text-lg font-bold text-gray-800 rounded-lg hover:bg-gray-200 transition duration-200">Join Now</a>
+              <div class="ml-6 text-left ">
+                <p class="text-gray-700 text-lg font-bold">DAYS</p>
               </div>
-              <div class="mt-16">
-                  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                      <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                          <img class="h-75 w-full object-cover" src="./ASSET/speaker.svg"
-                              alt="Speaker 1">
-                          <div class="p-6">
-                              <h3 class="text-lg font-bold">Speaker 1</h3>
-                              <p class="text-gray-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                  Vestibulum at nunc feugiat, fringilla justo eget, congue tellus. Nulla euismod
-                                  ligula a quam aliquam commodo.</p>
-                          </div>
-                      </div>
-                      <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                          <img class="h-75 w-full object-cover" src="./ASSET/speaker.svg"
-                              alt="Speaker 2">
-                          <div class="p-6">
-                              <h3 class="text-lg font-bold">Speaker 2</h3>
-                              <p class="text-gray-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                  Vestibulum at nunc feugiat, fringilla justo eget, congue tellus. Nulla euismod
-                                  ligula a quam aliquam commodo.</p>
-                          </div>
-                      </div>
-                  </div>
+            </div>
+            <div class="flex items-center bg-white rounded-lg shadow-md p-6 w-full md:w-auto mt-8 md:mt-0 md:ml-8">
+              <div class="flex items-center justify-center w-16 h-16 bg-gray-800 rounded-full text-white font-bold text-2xl">
+                <span id="hours"></span>
               </div>
+              <div class="ml-6 text-left">
+                <p class="text-gray-700 text-lg font-bold">HOURS</p>
+              </div>
+            </div>
+            <div class="flex items-center bg-white rounded-lg shadow-md p-6 w-full md:w-auto mt-8 md:mt-0 md:ml-8">
+              <div class="flex items-center justify-center w-16 h-16 bg-gray-800 rounded-full text-white font-bold text-2xl">
+                <span id="minutes"></span>
+              </div>
+              <div class="ml-6 text-left">
+                <p class="text-gray-700 text-lg font-bold">MINUTES</p>
+              </div>
+            </div>
+            <div class="flex items-center bg-white rounded-lg shadow-md p-6 w-full md:w-auto mt-8 md:mt-0 md:ml-8">
+              <div class="flex items-center justify-center w-16 h-16 bg-gray-800 rounded-full text-white font-bold text-2xl">
+                <span id="seconds"></span>
+              </div>
+              <div class="ml-6 text-left">
+                <p class="text-gray-700 text-lg font-bold">SECONDS</p>
+              </div>
+            </div>
           </div>
-      </div>
-  </section>
+            <div class="mt-8">
+                <a href="./Auth/index.html"
+                    class="inline-block bg-white py-4 px-6 text-lg font-bold text-gray-800 rounded-lg hover:bg-gray-200 transition duration-200">Join Now</a>
+            </div>
+            <div class="mt-16">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img class="h-75 w-full object-cover" src="./ASSET/speaker.svg"
+                            alt="Speaker 1">
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold">Speaker 1</h3>
+                            <p class="text-gray-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum at nunc feugiat, fringilla justo eget, congue tellus. Nulla euismod
+                                ligula a quam aliquam commodo.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img class="h-56 w-full object-cover" src="./ASSET/speaker.svg"
+                            alt="Speaker 2">
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold">Speaker 2</h3>
+                            <p class="text-gray-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum at nunc feugiat, fringilla justo eget, congue tellus. Nulla euismod
+                                ligula a quam aliquam commodo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
   </div>
 </div>
 
